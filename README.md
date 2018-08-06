@@ -1,4 +1,7 @@
-# eval-expression
+# EvalExpression
+
+![screenshot](https://raw.githubusercontent.com/Ugotsta/eval-expression/master/screenshot.png)
+
 Simple expression evaluator example project for [Lazarus IDE](https://www.lazarus-ide.org/). The project includes a form with a couple text fields and a label. Users can enter math expressions in the first field and get evaluated results as they type.
 
 Evaluations are handled through [TFPExpressionParser](http://wiki.lazarus.freepascal.org/How_To_Use_TFPExpressionParser) which is bundled with Lazarus.
