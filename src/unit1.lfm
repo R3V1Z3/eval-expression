@@ -1,0 +1,38 @@
+object eval: Teval
+  Left = 351
+  Height = 89
+  Top = 247
+  Width = 320
+  Caption = 'EvalExpression'
+  ClientHeight = 89
+  ClientWidth = 320
+  LCLVersion = '1.8.4.0'
+  object Expression: TEdit
+    Left = 8
+    Height = 29
+    Top = 8
+    Width = 304
+    OnChange = ExpressionChange
+    ParentShowHint = False
+    TabOrder = 0
+    Text = '1+1'
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 56
+    Width = 34
+    Caption = 'Result'
+    ParentColor = False
+  end
+  object Result: TEdit
+    Left = 56
+    Height = 29
+    Top = 48
+    Width = 112
+    Color = clCream
+    ReadOnly = True
+    TabOrder = 1
+    Text = '2'
+  end
+end
